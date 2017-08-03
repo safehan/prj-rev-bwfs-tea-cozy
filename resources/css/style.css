@@ -1,0 +1,133 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.menu img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  margin-top: 62px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mission-text {
+  background-color: black;
+  width: 100%;
+}
+
+.featured-tea {
+  margin: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-tea h2,h4 {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.monthly-tea {
+  text-align: center;
+}
+
+.monthly-tea h4 {
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.the-teas {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.monthly-tea img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+
+.locations {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+}
+
+.location-details {
+  display: flex;
+  justify-content: center;
+}
+
+.local {
+  text-align: center;
+  background-color: black;
+  margin: 20px;
+  width: 300px;
+}
+
+.contact {
+  text-align: center;
+  height: 200px
+}
+
+.contact h2 {
+  margin-top: 10px;
+}
+
+.footer {
+  margin-left: 20px;
+}
